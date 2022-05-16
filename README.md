@@ -11,9 +11,6 @@ A short timed quiz on Javascript fundamentals
 
 No installation required, Quiz should run within most browsers
 
-## Github: 
-Check out more projects on my Github at https://github.com/ReindeerCode
-
 
 ## Screenshots:
 
