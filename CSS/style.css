@@ -1,0 +1,92 @@
+/*Collaborated with Janvier Mbilizi*/
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 12pt;
+    background-color: #161518;
+}
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: bold;
+  font-size: 200%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgb(13, 12, 14);
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #70707a;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  cursor: crosshair;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 150%;
+  background-color: rgb(79, 22, 170);
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color:rgb(79, 22, 170)
+}
+
+.choices button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 200%;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #dfdae7;
+}
